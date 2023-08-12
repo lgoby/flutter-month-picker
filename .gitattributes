@@ -1,0 +1,9 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Enforce Windows newlines
+*.bat text eol=crlf
+*.reg text eol=crlf
+
+# Enforce Unix newlines
+*.sh text eol=lf
